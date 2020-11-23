@@ -1,0 +1,50 @@
+#+TITLE: smtex
+#+OPTIONS: html-postamble:nil
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+HTML_HEAD: <meta http-equiv="onion-location" content="http://srbmb3nj2caizrf5tvi6zqzbtbcljfu7ddhcykr64njt72tc54mw2fid.onion/" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
+*_This was a hackathon project, and the phone number and services are no longer live_*
+
+Welcome to smtex! This is a program that lets you turn LaTeX code into photos over SMS!
+
+** Usage
+   :PROPERTIES:
+   :CUSTOM_ID: usage
+   :END:
+
+*Text your LaTeX code to the number =(970) 400-1784= and get it rendered and sent back to you!*
+
+For example: send =x = \frac{-b \pm \sqrt{b^2 -4ac}}{2a}= to get back this beautiful image of
+everyone's favourite quadratic equation.
+
+[[https://drops.vossen.dev/smtex-quad-form.jpg]]
+
+Or, just scan this QR code
+
+[[https://drops.vossen.dev/smtex-qr-code.png]]
+
+** Why?
+   :PROPERTIES:
+   :CUSTOM_ID: why
+   :END:
+
+As a student, I often find myself trying to send equations over sms.  Very often it ends up looking
+like something like =x = (int(x^2 - 23x)/(sqrt(4x))dx)=. That's dumb. Whenever I see a piece of text
+like that it just makes me want to give up because of how unreadable it is. I am also quite
+proficient in LaTeX, so I figured if I could type LaTeX quickly I could send equations with much
+better communication efficiency.
+
+** Source
+   :PROPERTIES:
+   :CUSTOM_ID: source
+   :END:
+
+Source on [[https://github.com/jakevossen5/smtex][GitHub]]. It is pretty messy, as it is a hackathon project.
+
+** Architecture
+   :PROPERTIES:
+   :CUSTOM_ID: architecture
+   :END:
+
+[[https://drops.vossen.dev/smtex-architecture.png]]
